@@ -20,4 +20,35 @@ export const FormWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+
+    input {
+      font-size: 15px;
+      color: #999;
+      text-align: left;
+      padding: 15px;
+      margin: 7px;
+      width: 280px;
+      height: 40px;
+      border: 0;
+      border-radius: 5px;
+    }
+
+    button {
+      margin: 10px 5px;
+      width: 280px;
+      height: 40px;
+      border: 0;
+      border-radius: 7px;
+      background-color: #e9283a;
+      font-size: 15px;
+      color: #ffffff;
+      letter-spacing: 0;
+      font-weight: bold;
+    }
+  }
 `;
