@@ -1,11 +1,16 @@
 import React from 'react';
 
+import SignIn from './pages/SignIn';
+
+import GlobalStyle from './styles/global';
+
 function App() {
   return (
     <div className="App">
-      <h1>Pizzaria Don Juan</h1>
+      <GlobalStyle />
+      <SignIn />
     </div>
-  );                
+  );
 }
 
 export default App;
