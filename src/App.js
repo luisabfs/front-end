@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       <h1>Pizzaria Don Juan</h1>
     </div>
-  );
+  );                
 }
 
 export default App;
